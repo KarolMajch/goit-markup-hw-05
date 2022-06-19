@@ -241,25 +241,20 @@ align-content: center;
 justify-content: center;
 }
 
-.box1{
+.box1 {
   background-image:url(https://github.com/KarolMajch/goit-markup-hw-05/blob/main/images/box.jpg?raw=true);
   background-size: 370px 294px;
-  width: 370px;
-  height: 294px;
+
 }
-.box2{
+.box2 {
   background-image: url(https://github.com/KarolMajch/goit-markup-hw-05/blob/main/images/box2.jpg?raw=true);
   background-size: 370px 294px;
-  width: 370px;
-  height: 294px;
+ 
 }
 
-.box3{ background-image: url(https://github.com/KarolMajch/goit-markup-hw-05/blob/main/images/box3.jpg?raw=true);
+.box3 { background-image: url(https://github.com/KarolMajch/goit-markup-hw-05/blob/main/images/box3.jpg?raw=true);
   background-size: 370px 294px;
-  width: 370px;
-  height: 294px;
 }
-
 
 /* section witm our team  */
 
