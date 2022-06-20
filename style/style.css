@@ -376,6 +376,8 @@ justify-content: center;
   border: 1px solid #AFB1B8;
   fill: #757575;
   justify-content: space-around;
+  display: flex;
+  align-items: center;
 }
 
 .customers-item:hover,
