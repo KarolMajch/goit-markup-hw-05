@@ -28,6 +28,16 @@ body {
   background-color: #2196f3;
 }
 
+.second-page::after {
+  content: "";
+  display: block;
+  position: relative;
+  border-top: 4px solid var(--background-color);
+  border-radius: 2px;
+  top: 29px;
+  background-color: #2196f3;
+}
+
 /* general style  */
 .link {
   cursor: pointer;
