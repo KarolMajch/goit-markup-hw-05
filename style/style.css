@@ -18,14 +18,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* .active::after {
+.active::after {
   content: "";
   border: 4px solid #2196F3;
   border-radius: 2px;
   display: block;
   position: relative;
   top: 28px;
-} */
+  background-color: #2196F3;
+}
 
 /* general style  */
 .link {
@@ -549,6 +550,11 @@ justify-content: center;
   border-bottom: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
 }
 
 .list-style .photo {
