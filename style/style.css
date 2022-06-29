@@ -8,11 +8,6 @@
 *::after {
   box-sizing: border-box;
 }
-
-*:hover {
-  transition: var(--brand-transition);
-}
-
 body {
   color: var(--brand-color);
   background-color: white;
@@ -93,12 +88,14 @@ body {
 .link:hover,
 .link:focus {
   color: var(--background-color);
+  transition: var(--brand-transition);
 }
 
 .header-phone:hover,
 .header-mail:hover {
   color: var(--background-color);
   fill: var(--background-color);
+  transition: var(--brand-transition);
 }
 
 .list-link:not(:last-child) {
@@ -356,6 +353,7 @@ justify-content: center;
 .team-link:focus {
   fill: #FFFFFF;
   background-color: #2196f3;
+  transition: var(--brand-transition);
 }
 
 /* custemers  */
@@ -385,7 +383,7 @@ justify-content: center;
 }
 
 .customers-item {
-  color: #757575;
+  color: #AFB1B8;
   justify-content: space-around;
   display: flex;
   align-items: center;
@@ -398,13 +396,14 @@ justify-content: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  fill: #757575;
+  fill: #AFB1B8;
 }
 
 .customers-icon:hover,
 .customers-icon:focus {
   border-color: #2196f3;
   fill: #2196f3;
+  transition: var(--brand-transition);
 }
 
 
@@ -441,6 +440,7 @@ justify-content: center;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: var(--brand-transition);
 }
 
 .button {
@@ -618,10 +618,12 @@ justify-content: center;
 .footer-mail:hover,
 .footer-phone:hover {
   color: var(--background-color);
+  transition: var(--brand-transition);
 }
 
 .adress .button:hover {
   background-color: var(--background-color);
+  transition: var(--brand-transition);
 }
 
 .join-us {
@@ -661,6 +663,7 @@ justify-content: center;
 .social-link:hover,
 .social-link:focus {
   background-color: #2196f3;
+  transition: var(--brand-transition);
 }
 
 /* the remaining css  */
@@ -693,7 +696,7 @@ left: 0;
 top: 0;
 width: 100%;
 height: 100%;
-background-color: #757575;
+background:rgba(0, 0, 0, 0.2);
 }
 
 .is-hidden{
